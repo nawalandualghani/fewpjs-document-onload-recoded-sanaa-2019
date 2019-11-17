@@ -9,3 +9,4 @@ console.log(
   let event = document.createEvent( 'Event' );
   event.initEvent( 'DOMContentLoaded', true, true );
   window.document.dispatchEvent( event );
+let element =document.querySelector( 'p' )
